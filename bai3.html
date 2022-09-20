@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let num = +prompt("Nhập số")
+  function factorial(n) {
+    if (n === 2) {
+      return 2
+    } else {
+      return n * factorial(n-1)
+    }
+  }
+
+  document.write(factorial(num))
+</script>
+</body>
+</html>

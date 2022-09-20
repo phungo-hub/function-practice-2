@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let num1 = +prompt("Nhập số thứ 1")
+  let num2 = +prompt("Nhập số thứ 2")
+
+  function swap(a,b) {
+    let c = a;
+    a = b;
+    b = c;
+    return [a, b]
+  }
+
+  console.log(swap(num1, num2))
+</script>
+</body>
+</html>
